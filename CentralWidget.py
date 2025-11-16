@@ -10,6 +10,7 @@ class CentralWidget(QWidget):
         axis_date_time = QDateTimeAxis()
         axis_date_time.setTitleText("Datum")
         axis_date_time.setFormat("hh:mm")
+        #axis_date_time.setFormat("hh:mm:ss")
         date_time_start = QDateTime(basis_datum, QTime(8, 0, 0))
         date_time_end = QDateTime(basis_datum, QTime(17, 0, 0))
         axis_date_time.setRange(date_time_start, date_time_end)
