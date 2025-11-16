@@ -15,3 +15,4 @@ class CentralWidget(QWidget):
         axis_date_time.setRange(date_time_start, date_time_end)
 
 
+#axis_date_time.setTickCount(34)
